@@ -1,0 +1,2 @@
+Number of students: 3
+Average of marks is: 91.67

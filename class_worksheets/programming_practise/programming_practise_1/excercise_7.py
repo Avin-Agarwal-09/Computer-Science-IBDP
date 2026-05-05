@@ -1,0 +1,10 @@
+print("Enter five integers")
+int1 = int(input())
+int2 = int(input())
+int3 = int(input())
+int4 = int(input())
+int5 = int(input())
+print(max(int1, int2, int3, int4, int5))
+print(min(int1, int2, int3, int4, int5))
+print((int1 + int2 + int3 + int4 + int5) / 5)
+

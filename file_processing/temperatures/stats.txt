@@ -1,0 +1,3 @@
+Max Temperature: 500
+Min Temperature: -200
+Average Temperature: 66.7

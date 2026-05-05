@@ -1,0 +1,5 @@
+num = int(input("Enter a three digit number: "))
+temp1 = int(index.num[1])
+temp1 = int(index.num[1])
+temp1 = int(index.num[1])
+print(temp1, temp2, temp3)

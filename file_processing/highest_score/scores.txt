@@ -1,0 +1,3 @@
+Alice,80
+Bob,95
+Clara,70
