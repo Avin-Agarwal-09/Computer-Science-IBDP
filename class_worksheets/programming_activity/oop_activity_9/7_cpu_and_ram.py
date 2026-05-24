@@ -27,7 +27,7 @@ class Computer:
                 + "  -> " + self.ram.get_info())
 
 
-# --- Main Program ---
+
 my_computer = Computer("Lenevo Legion")
 print(my_computer.get_specs())
 
