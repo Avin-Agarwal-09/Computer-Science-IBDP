@@ -1,17 +1,17 @@
-import Stacks_Functions
+import stacks_functions
 
 def are_parentheses_matched(s):
-    Stacks_Functions.Stack = [0] * Stacks_Functions.StackSize
-    Stacks_Functions.topIndex = -1
+    stacks_functions.Stack = [0] * stacks_functions.StackSize
+    stacks_functions.topIndex = -1
 
     for char in s:
         if char == "(":
-            Stacks_Functions.push(char)
+            stacks_functions.push(char)
         elif char == ")":
-            if Stacks_Functions.pop() is None:
+            if stacks_functions.pop() is None:
                 return False
     
-    return Stacks_Functions.isEmpty()
+    return stacks_functions.isEmpty()
 
 testString1 = "((()))"      
 testString2 = "(()"
