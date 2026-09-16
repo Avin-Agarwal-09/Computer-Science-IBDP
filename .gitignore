@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# regenerated every run by examples/10_file_handling.py
+examples/data/
