@@ -1,2 +1,0 @@
-UPLOAD: 3
-DOWNLOAD: 1

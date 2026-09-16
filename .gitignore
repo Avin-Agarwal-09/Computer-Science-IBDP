@@ -5,3 +5,28 @@ __pycache__/
 
 # regenerated every run by examples/10_file_handling.py
 examples/data/
+
+# Script output. Input data (ages.txt, scores.txt, numb.txt...) stays tracked;
+# only files a script writes are ignored, so they cannot show up as dirty.
+file_processing/ages/valid_ages.txt
+file_processing/avg_mark/above_avg.txt
+file_processing/clean_up/clean.txt
+file_processing/employees/results.txt
+file_processing/highest_score/ranking.txt
+file_processing/id/duplicates.txt
+file_processing/line_counter/count.txt
+file_processing/logging/reports.txt
+file_processing/longest_word/longest.txt
+file_processing/marks/summary.txt
+file_processing/prices/updated_prices.txt
+file_processing/scores/passed.txt
+file_processing/scores_decision/distinction.txt
+file_processing/scores_decision/fail.txt
+file_processing/scores_decision/pass.txt
+file_processing/story/count.txt
+file_processing/students/honours.txt
+file_processing/temperatures/stats.txt
+class_worksheets/activity/activity_11/1_file_existance/name.txt
+class_worksheets/activity/activity_11/2_run_counter/counter.txt
+class_worksheets/activity/activity_11/3_random_int/numb.txt
+class_worksheets/activity/activity_11/7_odd/odd.txt
