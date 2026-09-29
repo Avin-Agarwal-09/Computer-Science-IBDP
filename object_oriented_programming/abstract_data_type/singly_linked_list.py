@@ -39,17 +39,58 @@ class ListNode:
         self.data = data
         self.next = None
 
+def main():
 
-# Test data
-if __name__ == "__main__":
-    linked_list = LinkedList()
+    my_list = LinkedList()
 
-    linked_list.insert_at_beginning(10)
-    linked_list.insert_at_beginning(20)
-    linked_list.insert_at_end(30)
-    linked_list.insert_after_value(20, 25)
+    my_list.insert_at_end(10)
+    my_list.insert_at_end(20)
+    my_list.insert_at_end(30)
 
-    print("Linked list:")
-    linked_list.print_list()
+    print("Original linked list:")
+    my_list.print_list()
+
+    my_list.insert_at_beginning(5)
+
+    print("After inserting 5 at the beginning:")
+    my_list.print_list()
+
+    my_list.insert_after_value(10, 15)
+
+    print("After inserting 15 in the middle:")
+    my_list.print_list()
+    my_list.insert_at_end(40)
+
+    print("After inserting 40 at the end:")
+    my_list.print_list()
+
+main()
 
 
+def delete_node(self, data):
+    current = self.head
+    prev = None
+
+    if current != None and current.data == data:
+        self.head = current.next
+        current = None
+        return
+
+    while current != None and current.data != data:
+        prev = current
+        current = current.next
+
+    if current == None:
+        print(f"Node with data {data} not found.")
+        return
+
+    prev.next = current.next
+    current = None
+
+def search(self, key):
+    current = self.head
+    while current != None:
+        if current.data == key:
+            return True
+        current = current.next
+    return False
